@@ -5,12 +5,12 @@ function Navigation() {
     <>
       <div className="min-h-screen bg-linear-to-br from-purple-50 via-blue-50 to-cyan-50">
       {/* Navigation */}
-      <nav className="flex items-center justify-between px-8 py-4 bg-transparent/80 backdrop-blur-sm">
+      <nav className="flex items-center justify-between px-8 py-4 bg-white/80 backdrop-blur-sm">
         <div className="flex items-center gap-2">
           <div className="w-10 h-10 bg-linear-to-br from-purple-600 to-blue-600 rounded-xl flex items-center justify-center">
             <Zap className="w-6 h-6 text-white" fill="white" />
           </div>
-          <span className="text-xl font-bold">
+          <span className="text-xl font-bold font-sans">
             STEM<span className="text-blue-600">Quest</span>
           </span>
         </div>
